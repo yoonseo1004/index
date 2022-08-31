@@ -1,0 +1,18 @@
+/*초기화*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+    font-size: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 300px;
+}
