@@ -23,7 +23,9 @@ ul {
 a {
     text-decoration: none;
 }
-
+.btn.btn-outline-success{
+  color: #b02818;
+}
 
 .home h3{
     margin-top: 20px;
