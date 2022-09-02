@@ -23,19 +23,81 @@ ul {
 a {
     text-decoration: none;
 }
-.top{
+
+
+.home h3{
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 10px;
+    font-size: 30px;
+    color: gray;
+    opacity: 50%; 
+}
+
+.home img{
+    position: absolute;
+    float: left;
+    margin-left: 10px;
+    margin-top: -7px;
+    width: 2vw;
+    size: 70%;
+    opacity: 30%;
+}
+
+.header{
+    position: relative;
+    overflow: hidden;
+    background-color: #e6e6e6;
+    opacity: 30%;
+    border-bottom: 1px solid gray;
+  
+}
+
+.loginbox a {
+    float: right;
+    width: 100px;
+    right: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    background-color: rgb(250, 238, 234);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.loginbox a:link,
+a:visited {
+    opacity: 90%;
+    background-color: #e6e6e6;
+    color: rgb(143, 143, 143);
+}
+.loginbox a:hover,
+a:active {
+    background-color: rgb(26, 134, 161);
+    color: aliceblue;
+    
+}
+
+.topbar{
+    margin-top: 0px;
     position: relative;
     background-color: rgb(26, 134, 161);
     width: 100%;
-    height: 100px;
+    height: 80px;
     opacity: 20%;
     animation-name: example;
     animation-duration: 4s;
-    animation-iteration-count: 100;
+    animation-iteration-count: 10000;
 }
 @keyframes example {
     0% {background-color: rgb(26, 134, 161);}
-    50% {background-color: rgb(177, 212, 78);;}
+    30% {background-color: rgb(177, 212, 78);}
+    60% {background-color: #f9edb4;}
     100% {background-color: rgb(26, 134, 161);}
   }
 
@@ -44,53 +106,47 @@ a {
     height: 80px;
     background-color: rgb(255, 255, 255);
     opacity: 30%;
-
+    margin-top: -80px;
 }
 .title>h1 {
     
     text-align: center;
-    font-size: 50px;
+    font-size: 2.5vw;
     opacity: 40%;
     margin: auto;
 }
-#nav {
-    position: relative;
+
+.gender{
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 50px;
 }
-.top_menu {
-    position: relative;
-   
+
+.genderbox{
+    margin: auto;
+    display: flex;
+    padding: 1px;
+
 }
-.top_menu a {
-    
-    float: right;
-    right: 10px;
-    background-color: rgb(250, 238, 234);
-    margin: 10px;
-    margin-left: 1px;
+
+.gender a{
+    margin: 17px 5px 10px;
+    float: left;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
     padding: 5px;
+    background-color: rgb(234, 250, 248);
     border-radius: 20px;
-    width: 150px;
     text-align: center;
     font-size: 18px;
     transition: all 0.3s ease;
-    height: 30px;
-    line-height: 30px;
-    
 }
 
-.top_menu a:link,
-a:visited {
-    opacity: 70%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(143, 143, 143);
-    border: 1px solid rgba(27, 122, 177, 0.582);
-}
-.top_menu a:hover,
-a:active {
-    background-color: rgb(26, 134, 161);
-    color: aliceblue;
-    opacity: 80%;
-}
+
+
 
 
 
@@ -217,11 +273,3 @@ a:active {
     border: 0;
     transition: all .2s ease;
   }
-
-
-
-
-
-
-
-
