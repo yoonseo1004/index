@@ -1,0 +1,27 @@
+*{  
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+ol, ul{
+    list-style: none;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+h4{
+    text-align: center;
+    color: rgb(245, 245, 245);
+    font-size: 0.8em;
+}
+h5{
+    text-align: center;
+    color: rgb(245, 245, 245);
+    font-size: 0.7em;
+    margin-top: 5px;
+}
+@keyframes move {
+    50% {background-color: #f1b9c2;}
+}
