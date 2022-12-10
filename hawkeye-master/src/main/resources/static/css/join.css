@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* 가운데 컨텐츠 부분 */
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+article,
+aside {
+    height: calc(100vh - 160px);
+}
+
+.joinbox {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 960px;
+    height: 450px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+
+.joinbox1 img {
+    width: 350px;
+    transform: translateY(40px);
+    margin-left: 40px;
+}
+
+.joinbox2 {
+    transform: translateY(-20px);
+}
+
+.joinbox2 h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 2.2em;
+    text-align: center;
+    color: rgb(193, 246, 248);
+}
+
+form {
+    padding: 50px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgb(180, 180, 180);
+}
+
+input[type=text],
+input[type=password] {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.09);
+}
+
+input[type=text]:focus {
+    outline: 1px solid rgb(219, 219, 219);
+}
+
+input[type=password]:focus {
+    outline: 1px solid rgb(219, 219, 219);
+}
+
+input[type=submit] {
+    font-weight: 500;
+    margin-top: 70px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(#c2ebfb 1%, #64d1e4 51%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.09);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transform: translateX(15px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-image: linear-gradient(#c2ebfb 1%, #3bc2da 51%);
+}
